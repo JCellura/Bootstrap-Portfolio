@@ -1,0 +1,125 @@
+body {
+    background-color: black;
+    background: url('../images/curls.png') no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+    text-align: center;
+} 
+
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    float: none;
+    letter-spacing: 3px;
+}
+
+h1, h2 {
+    letter-spacing: 6px;
+}
+
+h3 {
+    position: absolute;
+    width: 75%;
+    bottom: 10%;
+    margin-left: 12.5%;
+    color: black;
+    background-color: white;
+    letter-spacing: 2px;
+}
+
+
+/*copied from md*/               
+.top-nav-collapse {
+    /* background-color: #259edb !important;
+  */
+}
+.navbar:not(.top-nav-collapse) {
+    /* background: transparent !important; */
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        /* background: #1686be !important; */
+        
+    }
+} 
+
+
+/* @media (max-width: 740px) { */
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px; 
+    } 
+} 
+
+/* end of copied css  */
+
+footer {
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: 3px;
+}
+
+#headshot {
+    /* height: auto; */
+    /* width: auto; */
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin: auto;
+}
+
+#work {
+    /* height: auto; */
+    /* width: auto; */
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin: auto;
+    width: 75%
+}
+
+.port-pic {
+    position: relative;
+    margin-bottom: 10%;
+}
+
+#social-media-icon {
+    /* height: 100px; */
+    /* width: 100px; */
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+#social-media-icon:hover {
+    opacity: 0.5;
+}
+
+#message {
+    height:120px;
+}
+
+
+ul {
+    letter-spacing: 3px;
+}
+
+p {
+    letter-spacing: 1px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: oblique;
+}
